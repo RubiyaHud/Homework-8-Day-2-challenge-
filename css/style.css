@@ -1,0 +1,146 @@
+/* All common css */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*----------- My css ---------------*/
+/* ----------- Container - 1 ----------------- */
+.container1 {
+    width: 100%;
+    background-color: #F7E4E2;
+    font-family: 'Courgette', cursive;
+
+    text-align: center; /*horizontally center the element*/
+}
+
+.container1 h1 {
+    font-size: 25px;
+}
+
+.container1 h2 {
+    color: blue;
+}
+
+.container1 div {
+    height: 60px;
+    width: 365px;
+    font-size: 21px;
+    background-color: rgb(180, 243, 243);
+    border: 1px solid red;
+}
+
+.div1 {
+    margin: 0;
+}
+
+.div2 {
+    margin-top: 10px;
+    margin-left: 335px;
+}
+
+.div3 {
+    margin: 0 auto;
+}
+.div4 {
+    margin: auto;
+}
+.div5 {
+    margin: 20px auto;
+}
+
+/* ----------- Container - 2 ----------------- */
+.container2 {
+    width: 100%;
+    background-color: hsl(83, 56%, 89%);
+    font-family: 'Courgette', cursive;
+
+    text-align: center; /*horizontally center the element*/
+
+    border-top: 1px solid rgb(41, 39, 39);;
+}
+.container2 h2 {
+    color: blue;
+}
+.container2 div {
+    height: 60px;
+    width: 365px;
+    font-size: 21px;
+    background-color: rgb(180, 243, 243);
+    border: 1px solid red;
+}
+.div6{
+    margin: 0;
+    float: left;
+}
+.div7{
+    margin-top: 10px;
+    margin-left: 335px;
+
+    float: left;
+}
+.div8{
+    margin: 0 auto;
+
+    float: left;
+}
+.div9 {
+    margin: auto;
+}
+.div10 {
+    margin: 20px auto;
+}
+
+/* ----------- Container - 3 ----------------- */
+.container3 {
+    width: 100%;
+    background-color: hsl(207, 53%, 86%);
+    font-family: 'Courgette', cursive;
+
+    /* text-align: center; horizontally center the element */
+
+    border-top: 1px solid rgb(41, 39, 39);
+
+    margin-top: 81px;
+}
+.container3 h2 {
+    color: blue;
+}
+.container3 div {
+    height: 33px;
+    width: 550px;
+    font-size: 21px;
+    background-color: rgb(180, 243, 243);
+    border: 1px solid red;
+}
+
+.div_3_1{
+    margin: 15px 0;
+    padding: 0;
+}
+.div_3_2{
+    margin: 15px 0;
+    padding: 35px 0 0 0;
+}
+.div_3_3{
+    margin: 15px 0;
+    padding: 0 0 35px 0;
+}
+.div_3_4{
+    margin: 15px 0;
+    padding: 0 135px 0 0;
+}
+.div_3_5{
+    margin: 15px 0;
+    padding: 0 0 0 135px;
+}
